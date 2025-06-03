@@ -1,0 +1,122 @@
+.content-management {
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 1px solid #444;
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+.content-management h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #ffc107;
+}
+.content-management form {
+  margin-bottom: 30px;
+}
+.content-management label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #f0f0f0;
+}
+.content-management input,
+.content-management textarea,
+.content-management input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: #333;
+  border: 1px solid #555;
+  color: #f0f0f0;
+}
+.content-management input:focus,
+.content-management textarea:focus,
+.content-management input[type="file"]:focus {
+  outline: none;
+  border-color: #ffc107;
+}
+.content-management button {
+  padding: 10px 20px;
+  background-color: #ffc107;
+  color: #1a1a1a;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+.content-management button:hover {
+  background-color: #ffeb3b;
+}
+.content-management table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #222;
+}
+.content-management table th,
+.content-management table td {
+  border: 1px solid #444;
+  padding: 8px;
+  text-align: left;
+  color: #f0f0f0;
+}
+.content-management table th {
+  background-color: #333;
+  color: #ffc107;
+}
+.content-management .action-btn {
+  padding: 5px 10px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+.content-management .edit-btn {
+  background-color: #28a745;
+}
+.content-management .edit-btn:hover {
+  background-color: #2cc754;
+}
+.content-management .delete-btn {
+  background-color: #dc3545;
+}
+.content-management .delete-btn:hover {
+  background-color: #e74c5c;
+}
+.sidebar-login {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #222;
+  border-radius: 5px;
+}
+.sidebar-login h4 {
+  color: #ffc107;
+  margin-bottom: 15px;
+}
+.sidebar-login .login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffc107;
+  color: #1a1a1a;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.sidebar-login .login-btn:hover {
+  background-color: #ffeb3b;
+}
+.sidebar-login .user-info {
+  color: #f0f0f0;
+  margin-bottom: 10px;
+}
+.sidebar-login .logout-btn {
+  padding: 10px;
+  background-color: #dc3545;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+}
+.sidebar-login .logout-btn:hover {
+  background-color: #e74c5c;
+}
