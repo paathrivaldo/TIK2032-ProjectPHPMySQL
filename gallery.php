@@ -42,7 +42,7 @@ if (isset($_GET['delete_id']) && isset($_SESSION['user_id'])) {
     $result = mysqli_query($conn, $query);
     $project = mysqli_fetch_assoc($result);
     
-    if (project && file_exists('./assets/images/' . $project['image'])) {
+    if ($project && file_exists('./assets/images/' . $project['image'])) {
         unlink('./assets/images/' . $project['image']);
     }
     

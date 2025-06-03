@@ -1,0 +1,130 @@
+body {
+  background-color: #1a1a1a;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.edit-project {
+  max-width: 600px;
+  width: 100%;
+  padding: 30px;
+  background-color: #222;
+  border: 1px solid #444;
+  border-radius: 8px;
+  color: #f0f0f0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.edit-project h2 {
+  font-size: 1.8em;
+  margin-bottom: 25px;
+  color: #ffc107;
+  text-align: center;
+}
+
+.edit-project form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-project label {
+  margin: 10px 0 6px;
+  font-weight: 500;
+  color: #f0f0f0;
+  font-size: 0.9em;
+}
+
+.edit-project input[type="text"],
+.edit-project input[type="file"] {
+  padding: 10px;
+  border: 1px solid #555;
+  background-color: #333;
+  color: #f0f0f0;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.edit-project input:focus,
+.edit-project input[type="file"]:focus {
+  outline: none;
+  border-color: #ffc107;
+  box-shadow: 0 0 5px rgba(255, 193, 7, 0.5);
+}
+
+.edit-project button {
+  padding: 12px 25px;
+  background-color: #ffc107;
+  border: none;
+  color: #1a1a1a;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 4px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.edit-project button:hover {
+  background-color: #ffeb3b;
+  transform: scale(1.05);
+}
+
+.edit-project .project-preview {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border: 1px solid #555;
+  border-radius: 4px;
+  display: block;
+}
+
+.edit-project .error {
+  color: #dc3545;
+  font-size: 0.85em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.edit-project .back-btn {
+  color: #ffc107;
+  text-decoration: none;
+  font-size: 0.9em;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.edit-project .back-btn:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .edit-project {
+    padding: 20px;
+  }
+
+  .edit-project h2 {
+    font-size: 1.5em;
+  }
+
+  .edit-project input[type="text"],
+  .edit-project input[type="file"] {
+    font-size: 0.9em;
+  }
+
+  .edit-project button {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+
+  .edit-project .project-preview {
+    max-width: 100%;
+  }
+}
